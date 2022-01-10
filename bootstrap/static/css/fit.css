@@ -1,0 +1,130 @@
+
+@media only screen and (max-width:768px){
+    
+    .figure1{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+   
+
+}
+
+.divb{
+    display: flex;
+    flex-direction: row;
+}
+.divp{
+    display: flex;
+    flex-direction: row;
+}
+.divd{
+    display: flex;
+    flex-direction: row;
+}
+.divf{
+    display: flex;
+    flex-direction: row;
+}
+.divh{
+    display: flex;
+    flex-direction: row;
+}
+.diva{
+    width: 15rem;
+    height: 15rem;
+    transition: width .5s;
+}
+.diva:hover{
+    width: 30rem;
+}
+
+.divo{
+    width: 15rem;
+    height: 15rem;
+    transition: width .5s;
+}
+.divo:hover{
+    width: 30rem;
+}
+.divc{
+    width: 15rem;
+    height: 15rem;
+    transition: width .5s;
+}
+.divc:hover{
+    width: 30rem;
+}
+.dive{
+    width: 15rem;
+    height: 15rem;
+    transition: width .5s;
+}
+.dive:hover{
+    width: 30rem;
+}
+.divg{
+    width: 15rem;
+    height: 15rem;
+    transition: width .5s;
+}
+.divg:hover{
+    width: 30rem;
+}
+
+@media screen and (max-width:600px){
+    .divb{
+        flex-direction: column;
+    }
+    .divp{
+        flex-direction: column;
+    }
+    .divd{
+        flex-direction: column;
+    }
+    .divf{
+        flex-direction: column;
+    }
+    .divh{
+        flex-direction: column;
+    }
+    .diva{
+        height: 20rem;
+    }
+    .divc{
+        height: 20rem;
+    }
+    .dive{
+        height: 20rem;
+    }
+    .divo{
+        height: 20rem;
+    }
+    .divg{
+        height: 20rem;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .more-cards{
+        flex-direction: column;
+    }
+}
+.card1:hover{
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+
+}
+.header{
+    font-size: 80px;
+    color: grey;
+}
+.text{
+    font-size: 60px;
+    color: grey;
+}
+.subtext{
+    font-size: 40px;
+    color: grey;
+}
